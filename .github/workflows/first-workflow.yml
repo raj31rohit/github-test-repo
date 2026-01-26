@@ -11,3 +11,9 @@ jobs:
       - name: My first work flow 
         run : echo "Hello from GitHub Actions!"
 
+      - name: listing files
+        run: ls -lrth
+
+      - name: checking the readme.md file
+        run: cat README.md
+
