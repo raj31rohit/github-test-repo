@@ -28,3 +28,6 @@ jobs:
       - name: run cowsay lib 
         run: cowsay -f dragon "Run for the cover" >> dragon.txt
 
+      - name: checing the third part output 
+        run: cat dragon.txt
+
