@@ -1,6 +1,7 @@
 name: Dummy Workflow
 
-on: push
+on: push 
+
 
 jobs:
   dummy-job:
