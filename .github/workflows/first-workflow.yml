@@ -22,3 +22,9 @@ jobs:
          echo "Running mutiple commands"
          cat README.md
 
+      - name: Insttal cowsay lib
+        run: sudo apt install cowsay -y  
+
+      - name: run cowsay lib 
+        run: cowsay -f dragon "Run for the cover" >> dragon.txt
+
