@@ -1,0 +1,12 @@
+name: Dummy Workflow
+
+on: push
+
+jobs:
+  dummy-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: My first work flow 
+        run : echo "Hello from GitHub Actions!"
+
