@@ -17,6 +17,8 @@ jobs:
       - name: checkout repo
         uses: actions/checkout@v6
 
-      - name: checking the readme.md file
-        run: cat README.md
+      - name: executing mutilples commands 
+        run: |
+         echo "Running mutiple commands"
+         cat README.md
 
